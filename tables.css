@@ -1,0 +1,165 @@
+body {
+ 
+	    font-family: Tahoma;
+ 
+	    font-size: 12px;
+ 
+	    margin: 0px;
+ 
+	    padding: 0px;
+ 
+	}
+ 
+	table#price-chart {
+ 
+	    MARGIN: 10px auto;
+ 
+	    padding: 0px;
+ 
+	}
+ 
+ 
+ 
+	table#price-chart td {
+ 
+	    BORDER-RIGHT: #fff 1px solid;
+ 
+	    TEXT-ALIGN: center
+ 
+	}
+ 
+	table#price-chart td {
+ 
+	    margin: 0px;
+ 
+	    padding: 0px;
+ 
+	    height: 30px;
+ 
+	}
+ 
+	table#price-chart .even td {
+ 
+	    background-color: #e5e5e5;
+ 
+	}
+ 
+	table#price-chart .odd td {
+ 
+	    background-color: #cacaca;
+ 
+	}
+ 
+	table#price-chart .odd .table-col-0 {
+ 
+	    background-color: #c4e2ec;
+ 
+	    width:120px;
+ 
+	}
+ 
+	table#price-chart .odd .table-col-1 {
+ 
+	    background-color: #e9dbaa;
+ 
+	    width:120px;
+ 
+	}
+ 
+	table#price-chart .odd .table-col-2 {
+ 
+	    background-color: #e9bfbf;
+ 
+	    width:120px;
+ 
+	}
+ 
+	table#price-chart .odd .table-col-3 {
+ 
+	    background-color: #d4e0a9;
+ 
+	    width:120px;
+ 
+	}
+ 
+	table#price-chart .odd .table-col-4 {
+ 
+	    background-color: #d7c4ed;
+ 
+	    width:120px;
+ 
+	}
+ 
+ 
+ 
+	.left-col-captions {
+ 
+	    width: 172px;
+ 
+	    font-weight: bold;
+ 
+	    color: #424242;
+ 
+	    text-align:right !important;
+ 
+	    padding-right: 8px !important;
+ 
+	}
+ 
+	.black-bg {
+ 
+	    background-color: #373737 !important;
+ 
+	    color: #FFF;
+ 
+	}
+	.submit{
+	
+	background: yellow;
+	opacity: 0.8;
+	font: bold 20px Osaka;
+	border-radius: 5px;
+	height: 50px;
+	padding: 10px;
+	width: 100px;
+	-webkit-transition:background 1s,width 1s;
+	margin:10px;
+	margin-bottom: 50px;
+
+}
+.submit:hover{
+	background-color: red;
+	width: 200px;
+}
+#submit2{
+	background: yellow;
+	opacity: 0.8;
+	font: bold 20px Osaka;
+	border-radius: 5px;
+	height: 50px;
+	padding: 10px;
+	width: 100px;
+	-webkit-transition:background 1s,width 1s;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom: 50px;
+}
+#submit2:hover{
+	background-color: red;
+	width: 200px;
+}
+.drag{
+	margin: 5px;
+	padding: 3px;
+	width: 200px;
+	height: 30px;
+	background-color: red;
+	font-size: 20px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	text-align: center;
+	opacity: 0.7;
+}
+textarea.border{
+	border: 20px solid #999;
+}
